@@ -6,3 +6,13 @@
 .title {
   font-size: 35px;
 }
+
+.header {
+  background-color: rgba(78, 155, 218, 0.695);
+  height: 8.5vh;
+  font-size: 26px;
+  color: rgb(17, 17, 17);
+}
+.header > p {
+  margin: 0;
+}
