@@ -17,3 +17,6 @@
   user-select: none;
   cursor: pointer;
 }
+.header > p:active {
+  color: rgb(20, 20, 20);
+}
