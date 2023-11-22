@@ -1,0 +1,22 @@
+.header {
+  display:flex;
+  background: linear-gradient(90deg,rgba(32, 139, 226, 0.71),rgba(172, 246, 254, 0.9),rgba(32, 139, 226, 0.71));
+  height: 10vh;
+  border-bottom: solid 0.5px rgb(78, 78, 78);
+  width: 100vw;
+  flex-direction: row;
+}
+.header > p {
+  font-size: 19px;
+  font-weight: 340;
+  color: rgb(75, 75, 75);
+  margin-bottom: 0;
+  margin-left: 2vh;
+  margin-right: 4.2vh;
+  margin-top: 4vh;
+  user-select: none;
+  cursor: pointer;
+}
+.header > p:active {
+  color: rgb(20, 20, 20);
+}
