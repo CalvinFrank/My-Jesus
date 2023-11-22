@@ -4,11 +4,14 @@ import './globals.css'
 import Header from './components/header'
 
 const inter = Inter({ subsets: ['latin'] })
+export const metadata = {
+  title: 'My Jesus',
+}
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <title>My Jesus</title>
+      <link rel="icon" href="/favicon.ico" />
       <body className={inter.className}>
         <Header></Header>
         {children}
