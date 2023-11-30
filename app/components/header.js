@@ -11,6 +11,7 @@ export default function Header() {
       <p onClick={()=>{router.push("/getting_started")}}>Getting Started</p>
       <p onClick={()=>{router.push("/believes")}}>Believes</p>
       <p onClick={()=>{router.push("/live_for_God")}}>Saved</p>
+      <p onClick={()=>{router.push("/bible")}}>Bible</p>
     </header>
   )
 }
